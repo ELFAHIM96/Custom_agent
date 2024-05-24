@@ -14,7 +14,7 @@ initialize:
 push:
 	echo "pushing ..."
 	git add .
-	git commit -m "hi"
+	git commit -m "change code "
 	git push -u origin main
 readme:
 	@echo "Adding README.md to the repository..."
@@ -23,4 +23,3 @@ readme:
 	git commit -m "Add README.md"
 	git push -u origin main
 
-	
